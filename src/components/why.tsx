@@ -33,7 +33,7 @@ const PassionateDeveloper: React.FC = () => {
       </p>
       <p className="dramatic-text">
         This is not merely a vocation—it is my <strong>magnum opus</strong>, my{" "}
-        <span className="highlight">raison d'être</span>.
+        <span className="highlight">raison d&apos;être</span>.
       </p>
       {"\n"}
       <p className="esoteric-text">

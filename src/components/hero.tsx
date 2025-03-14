@@ -9,14 +9,15 @@ export default function Hero() {
       <div className="container mx-auto px-4 pt-20">
         <div className="max-w-3xl mx-auto text-center md:text-left md:mx-0">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Hi, I'm <span className="text-primary">M.A.C.E.</span>
+            Hi, I&apos;m <span className="text-primary">M.A.C.E.</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-foreground/80 mb-8">
             Full Stack Web Developer
           </h2>
           <p className="text-lg text-foreground/70 mb-10 max-w-2xl">
             I build modern, responsive web applications with a focus on user
-            experience and clean code. Let's create something amazing together.
+            experience and clean code. Let&apos;s create something amazing
+            together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Button asChild size="lg">
