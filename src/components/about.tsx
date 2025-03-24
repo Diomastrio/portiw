@@ -43,7 +43,12 @@ export default function About() {
             </div>
 
             <Button asChild>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a
+                href="/CVMACE.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="CVMACE.pdf"
+              >
                 Download Resume
               </a>
             </Button>
