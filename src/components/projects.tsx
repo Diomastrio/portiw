@@ -21,7 +21,7 @@ export default function Projects() {
         "A real-time chat application with user authentication and online status indicators.",
       image: "/chat.png",
       tags: ["React", "MongoDB", "Express.js", "Tailwind CSS"],
-      demoUrl: "https://airguard.onrender.com/",
+      demoUrl: "https://chatdocente.onrender.com/",
       githubUrl: "https://github.com/Diomastrio/reachat",
     },
     {
