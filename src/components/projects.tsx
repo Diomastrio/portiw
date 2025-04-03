@@ -6,13 +6,13 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Novel Platform",
       description:
-        "A full-stack e-commerce platform with product management, cart functionality, and payment processing.",
-      image: "/swapii.png",
+        "A full-stack webnovel platform with product management, publish functionality, and payment processing.",
+      image: "/spiro.png",
       tags: ["React.js", "Supabase", "Recharts", "Styled Components"],
-      demoUrl: "https://swapiio.netlify.app/",
-      githubUrl: "https://github.com/Diomastrio/swapiiO",
+      demoUrl: "https://spirospero-sable.vercel.app/",
+      githubUrl: "https://github.com/Diomastrio/spirospero",
     },
     {
       id: 2,
