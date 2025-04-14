@@ -16,7 +16,7 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: "Chat App",
+      title: "Classroom Chat App",
       description:
         "A real-time chat application with user authentication and online status indicators.",
       image: "/chat.png",
