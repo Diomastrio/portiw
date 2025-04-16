@@ -28,7 +28,7 @@ export default function Footer() {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/miguel-andy-contreras-esparza-00b6412a7/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors"
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-foreground/60 text-sm">
-          <p>© {currentYear} Your Name. All rights reserved.</p>
+          <p>© {currentYear} MACE. All rights reserved.</p>
         </div>
       </div>
     </footer>

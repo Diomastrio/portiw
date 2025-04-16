@@ -42,16 +42,36 @@ export default function About() {
               ))}
             </div>
 
-            <Button asChild>
-              <a
-                href="/CVMACE.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                download="CVMACE.pdf"
+            <div className="flex flex-wrap gap-3">
+              <Button
+                asChild
+                className="flex items-center gap-2 hover:bg-black bg-muted/30"
               >
-                Download Resume
-              </a>
-            </Button>
+                <a
+                  href="/ENMACE.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="ENMACE.pdf"
+                >
+                  <span>🇺🇸</span> English CV
+                </a>
+              </Button>
+
+              <Button
+                asChild
+                variant="outline"
+                className="flex items-center gap-2"
+              >
+                <a
+                  href="/SPMACE.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="SPMACE.pdf"
+                >
+                  <span>🇪🇸</span> Spanish CV
+                </a>
+              </Button>
+            </div>
           </div>
 
           <div className="order-1 md:order-2 flex justify-center">

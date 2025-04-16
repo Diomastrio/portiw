@@ -42,7 +42,12 @@ export default function ProjectCard({ project }: { project: Project }) {
       </CardContent>
 
       <CardFooter className="p-6 pt-0 flex gap-4">
-        <Button asChild variant="default" size="sm">
+        <Button
+          asChild
+          variant="default"
+          size="sm"
+          className="bg-muted/30 hover:bg-black"
+        >
           <a
             href={project.demoUrl}
             target="_blank"

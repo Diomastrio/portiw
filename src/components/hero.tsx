@@ -20,7 +20,12 @@ export default function Hero() {
             together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <Button asChild size="lg">
+            <Button
+              asChild
+              size="lg"
+              variant="default"
+              className="bg-muted/30 hover:bg-black"
+            >
               <Link href="#projects">View My Work</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
