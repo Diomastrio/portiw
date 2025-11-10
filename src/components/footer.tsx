@@ -19,7 +19,7 @@ export default function Footer() {
 
           <div className="flex space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Diomastrio"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors"
@@ -37,7 +37,7 @@ export default function Footer() {
               <Linkedin size={24} />
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://x.com/MARTISASHURAKI1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors"
